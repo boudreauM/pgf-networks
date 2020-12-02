@@ -3,6 +3,7 @@ import numpy as np
 import itertools as it
 import scipy
 from matplotlib import rc
+import math
 
 import SIR_sims
 
@@ -238,5 +239,5 @@ if __name__ == '__main__':
     print('pgfs yay!')
     #little_test()
     #formalism()
-    probMat = phaseSpace(2, 4, 2)
+    #probMat = phaseSpace(2, 4, 2)
     SIR_sims.run()
